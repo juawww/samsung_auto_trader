@@ -90,7 +90,6 @@ samsung_auto_trader/
 ```text
 requests
 python-dotenv
-tzdata
 ```
 
 패키지 설치 명령어는 다음과 같다.
@@ -99,7 +98,6 @@ tzdata
 python -m pip install -r requirements.txt
 ```
 
-Windows 환경에서 `Asia/Seoul` 시간대 오류가 발생할 수 있으므로 `tzdata`도 `requirements.txt`에 포함하였다.
 
 ---
 
@@ -173,7 +171,7 @@ python main.py
 
 ## 9. 기본 주문 방식
 
-교수님 프롬프트의 기본 요구사항에 따라 현재가를 기준으로 지정가 주문을 사용한다.
+현재가를 기준으로 지정가 주문을 사용한다.
 
 기본 주문 가격은 다음과 같다.
 
